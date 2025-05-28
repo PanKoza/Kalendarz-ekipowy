@@ -100,3 +100,30 @@ body{
     margin-top: 2vh;
     max-height: 20vh;
 }
+
+@media query (max-width: 768px) {
+    .korkownica-item {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #header, #korkownica-header {
+        height: 15vh;
+        font-size: xx-large;
+    }
+    
+    #logo {
+        font-size: xx-large;
+    }
+
+    .korkownica-item {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .korkownica-image {
+        width: 80%;
+        max-height: 15vh;
+    }
+}
