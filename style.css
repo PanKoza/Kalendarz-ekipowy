@@ -101,13 +101,14 @@ body{
     max-height: 20vh;
 }
 
-@media query (max-width: 1024px) {
+@media (max-width: 1024px) {
     .korkownica-item {
         width: 90%;
         height: auto;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 5vh;
+        float: none; 
     }
     
     #header, #korkownica-header {
