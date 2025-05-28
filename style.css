@@ -117,8 +117,9 @@ body{
     }
     
     #header, #korkownica-header {
-        height: 15vh;
+        height: 10vh;
         font-size: xx-large;
+        width: 100%;
     }
     
     #logo {
@@ -128,5 +129,10 @@ body{
     .korkownica-image {
         width: 80%;
         max-height: none;
+    }
+
+    #kalendarz {
+        height: auto;
+        width: 100%;
     }
 }
