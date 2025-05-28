@@ -101,7 +101,7 @@ body{
     max-height: 20vh;
 }
 
-@media query (max-width: 768px) {
+@media query (max-width: 1024px) {
     .korkownica-item {
         width: 90%;
         height: auto;
