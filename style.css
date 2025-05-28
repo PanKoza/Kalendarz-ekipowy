@@ -104,8 +104,10 @@ body{
 @media query (max-width: 768px) {
     .korkownica-item {
         width: 90%;
+        height: auto;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 5vh;
     }
     
     #header, #korkownica-header {
@@ -115,11 +117,6 @@ body{
     
     #logo {
         font-size: xx-large;
-    }
-
-    .korkownica-item {
-        height: auto;
-        margin-bottom: 20px;
     }
     
     .korkownica-image {
